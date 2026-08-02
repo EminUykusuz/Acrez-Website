@@ -1,0 +1,9 @@
+# robots.txt
+# Replace `example.com` with your actual domain before deployment.
+
+User-agent: *
+Allow: /
+
+# Location of the sitemap
+Sitemap: https://example.com/sitemap.xml
+Host: https://example.com
