@@ -87,7 +87,7 @@ export default function Preloader() {
         {/* YÜZDE SAYACI */}
         <div className="w-full flex justify-between items-end mb-4 overflow-hidden">
           <span className="text-acrez-accent text-xs md:text-sm tracking-[0.3em] uppercase font-bold">
-            Sistem Başlatılıyor
+            Loading
           </span>
           <span ref={counterRef} className="text-4xl md:text-5xl font-black text-white leading-none">
             0%
