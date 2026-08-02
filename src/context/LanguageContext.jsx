@@ -89,10 +89,15 @@ const translations = {
       },
       team: {
         title: "Ons team",
-        founderRole: "Oprichter & Softwarearchitect",
-        founderDesc: "Mijn passie voor het analyseren en optimaliseren van complexe systemen breng ik naar de digitale wereld. Met C2-niveau Engels schrijf ik code volgens wereldwijde standaarden en combineer ik analytisch denken met webarchitectuur.",
-        cofounderRole: "Medeoprichter",
-        cofounderDesc: "Een van de architecten die Acrez' visie tot leven brengt. Van strategische planning tot uitvoering speelt hij een sleutelrol in het maximaliseren van de digitale potentie van merken."
+        developerName: "Emin Uykusuz",
+        developerRole: "Backend & API Developer / Full‑stack Developer",
+        developerDesc: "Ontwerp en implementeer C#/.NET API's, backendservices en schaalbare cloud-native architecturen. Ik werk ook full‑stack: bouw React-frontend, integreer end-to-end systemen en verzorg deployment en operaties wanneer nodig.",
+
+        founderName: "Usame Yılancı",
+        founderRole: "Oprichter",
+        founderDesc: "Hij is de strategische motor achter Acrez en vertaalt merkvisie naar duidelijke digitale ervaringen. Van planning tot uitvoering speelt hij een centrale rol in het versterken van de identiteit van elk project.",
+        developerSkills: ["React", "Tailwind", "GSAP", "C#", "API", "Backend"],
+        founderSkills: ["Strategie", "Ontwikkeling", "Management"]
       },
       ecosystem: {
         title: "Het ecosysteem dat we bouwen",
@@ -260,10 +265,15 @@ const translations = {
       },
       team: {
         title: "Our team",
-        founderRole: "Founder & Software Architect",
-        founderDesc: "My passion for analyzing and optimizing complex systems brings itself to the digital world. With C2-level English I write code to global standards and combine analytical thinking with web architecture.",
-        cofounderRole: "Co-founder",
-        cofounderDesc: "One of the architects bringing Acrez's vision to life. From strategy to execution, he plays a key role in maximizing brands’ digital potential."
+        developerName: "Emin Uykusuz",
+        developerRole: "Backend & API Developer / Full‑stack Developer",
+        developerDesc: "Design and implement C#/.NET APIs, backend services, and scalable cloud-native architectures. I also work full‑stack: build React front-ends, integrate end-to-end systems, and handle deployments and operations when needed.",
+
+        founderName: "Usame Yılancı",
+        founderRole: "Founder",
+        founderDesc: "He is the strategic force behind Acrez and turns brand vision into clear digital experiences. From planning to execution, he plays a central role in strengthening the identity of each project.",
+        developerSkills: ["React", "Tailwind", "GSAP", "C#", "API", "Backend"],
+        founderSkills: ["Strategy", "Development", "Management"]
       },
       ecosystem: {
         title: "The ecosystem we build",
@@ -431,10 +441,15 @@ const translations = {
       },
       team: {
         title: "Unser Team",
-        founderRole: "Gründer & Softwarearchitekt",
-        founderDesc: "Meine Leidenschaft für die Analyse und Optimierung komplexer Systeme bringe ich in die digitale Welt. Mit C2-Englisch schreibe ich Code nach globalen Standards und vereine analytisches Denken mit Webarchitektur.",
-        cofounderRole: "Mitgründer",
-        cofounderDesc: "Einer der Architekten, die die Vision von Acrez zum Leben erwecken. Von der Strategie bis zur Umsetzung spielt er eine Schlüsselrolle bei der Maximierung des digitalen Potenzials von Marken."
+        developerName: "Emin Uykusuz",
+        developerRole: "Backend- & API-Entwickler / Full-Stack-Entwickler",
+        developerDesc: "Entwurf und Implementierung von C#/.NET-APIs, Backend-Services und skalierbaren Cloud-nativen Architekturen. Ich arbeite auch als Full‑Stack-Entwickler: baue React-Frontends, integriere End-to-End-Systeme und unterstütze Deployment und Betrieb.",
+
+        founderName: "Usame Yılancı",
+        founderRole: "Gründer",
+        founderDesc: "Er ist die strategische Kraft hinter Acrez und setzt Markenvisionen in klare digitale Erlebnisse um. Von der Planung bis zur Umsetzung spielt er eine zentrale Rolle bei der Stärkung der Identität jedes Projekts.",
+        developerSkills: ["React", "Tailwind", "GSAP", "C#", "API", "Backend"],
+        founderSkills: ["Strategie", "Entwicklung", "Management"]
       },
       ecosystem: {
         title: "Das Ökosystem, das wir bauen",

@@ -54,7 +54,7 @@ const projects = [
     title: "Liviton",
     category: "Cosmetica & Beauty",
     desc: "Een frisse, schone en gebruikersgerichte e-commerce-ervaring die cosmetische producten in de schijnwerpers zet.",
-    link: "", 
+    link: "https://liviton.nl", 
     bg: "#040f09", 
     image: livitonImg,
     mobileImage: livitonPhone

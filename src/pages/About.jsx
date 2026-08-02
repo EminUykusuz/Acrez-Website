@@ -30,32 +30,36 @@ export default function About() {
           {/* Muhammed Emin Uykusuz */}
           <div className="bg-white/5 border border-white/10 p-10 rounded-[2rem] hover:border-acrez-accent/30 transition-all group flex flex-col justify-between">
             <div>
-              <h3 className="text-3xl font-bold mb-2">Muhammed Emin Uykusuz</h3>
+              <h3 className="text-3xl font-bold mb-2">{about.team.developerName}</h3>
+              <p className="text-acrez-accent text-sm tracking-widest uppercase font-bold mb-6">{about.team.developerRole}</p>
+              <p className="text-gray-400 text-lg leading-relaxed mb-6">
+                {about.team.developerDesc}
+              </p>
+            </div>
+            <div className="flex gap-4 flex-wrap">
+              {about.team.developerSkills.map((skill, index) => (
+                <span key={index} className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Usame Yılancı */}
+          <div className="bg-white/5 border border-white/10 p-10 rounded-[2rem] hover:border-acrez-accent/30 transition-all group flex flex-col justify-between">
+            <div>
+              <h3 className="text-3xl font-bold mb-2">{about.team.founderName}</h3>
               <p className="text-acrez-accent text-sm tracking-widest uppercase font-bold mb-6">{about.team.founderRole}</p>
               <p className="text-gray-400 text-lg leading-relaxed mb-6">
                 {about.team.founderDesc}
               </p>
             </div>
             <div className="flex gap-4 flex-wrap">
-              <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">React</span>
-              <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">Tailwind</span>
-              <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">GSAP</span>
-            </div>
-          </div>
-
-          {/* Usame Yilanci */}
-          <div className="bg-white/5 border border-white/10 p-10 rounded-[2rem] hover:border-acrez-accent/30 transition-all group flex flex-col justify-between">
-            <div>
-              <h3 className="text-3xl font-bold mb-2">Usame Yılancı</h3>
-              <p className="text-acrez-accent text-sm tracking-widest uppercase font-bold mb-6">{about.team.cofounderRole}</p>
-              <p className="text-gray-400 text-lg leading-relaxed mb-6">
-                {about.team.cofounderDesc}
-              </p>
-            </div>
-            <div className="flex gap-4 flex-wrap">
-              <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">Strategie</span>
-              <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">Ontwikkeling</span>
-              <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">Management</span>
+              {about.team.founderSkills.map((skill, index) => (
+                <span key={index} className="px-3 py-1 bg-white/5 border border-white/10 rounded-lg text-sm text-gray-300">
+                  {skill}
+                </span>
+              ))}
             </div>
           </div>
 
