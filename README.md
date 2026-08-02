@@ -1,3 +1,6 @@
+<img width="1878" height="923" alt="image" src="https://github.com/user-attachments/assets/87e38afa-21c1-454c-8da0-59d2efe403db" />
+
+
 # Acrez Website
 
 This repository contains the Acrez marketing website built with Vite, React and Tailwind CSS.
