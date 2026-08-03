@@ -97,7 +97,12 @@ const translations = {
         founderRole: "Oprichter",
         founderDesc: "Hij is de strategische motor achter Acrez en vertaalt merkvisie naar duidelijke digitale ervaringen. Van planning tot uitvoering speelt hij een centrale rol in het versterken van de identiteit van elk project.",
         developerSkills: ["React", "Tailwind", "GSAP", "C#", "API", "Backend"],
-        founderSkills: ["Strategie", "Ontwikkeling", "Management"]
+        founderSkills: ["Strategie", "Ontwikkeling", "Management"],
+designerName: "Taha Önal",
+  designerRole: "UI/UX Ontwerper",
+  designerDesc: "Het creatieve brein achter de visuele identiteit van Acrez. Taha combineert esthetiek met gebruikersgerichte ontwerpen om merken te transformeren in onvergetelijke digitale ervaringen.",
+  designerSkills: ["Figma", "UI/UX Design", "Prototyping"]
+        
       },
       ecosystem: {
         title: "Het ecosysteem dat we bouwen",
@@ -151,7 +156,7 @@ const translations = {
         { id: "01", title: "Ontdekking & Strategie", desc: "We analyseren uw merkvisie en technische behoeften om een digitale roadmap uit te stippelen." },
         { id: "02", title: "Ontwerp (UI/UX)", desc: "We ontwerpen gebruiksvriendelijke, conversiegerichte en esthetisch perfecte interfaces." },
         { id: "03", title: "Ontwikkeling", desc: "We bouwen snelle, veilige en SEO-vriendelijke infrastructuur met moderne technologieën (React, Tailwind)." },
-        { id: "04", title: "Oplevering", desc: "We lanceren uw platform na alle tests, klaar om storingsvrij te draaien." }
+        { id: "04", title: "Oplevering", desc: "We lanceren uw platform na alle tests, klaar om storingsvrij te draaien." },{ id: "05", title: "Onderhoud & Support", desc: "Continue monitoring, updates en technische ondersteuning om uw systeem op topprestaties te houden." }
       ]
     },
     testimonials: {
@@ -273,7 +278,14 @@ const translations = {
         founderRole: "Founder",
         founderDesc: "He is the strategic force behind Acrez and turns brand vision into clear digital experiences. From planning to execution, he plays a central role in strengthening the identity of each project.",
         developerSkills: ["React", "Tailwind", "GSAP", "C#", "API", "Backend"],
-        founderSkills: ["Strategy", "Development", "Management"]
+        founderSkills: ["Strategy", "Development", "Management"],
+
+
+        designerName: "Taha Önal",
+  designerRole: "UI/UX Designer",
+  designerDesc: "The creative mind behind Acrez's visual identity. Taha combines aesthetics with user-centric designs to transform brands into unforgettable digital experiences.",
+  designerSkills: ["Figma", "UI/UX Design", "Prototyping"]
+
       },
       ecosystem: {
         title: "The ecosystem we build",
@@ -327,7 +339,8 @@ const translations = {
         { id: "01", title: "Discovery & Strategy", desc: "We analyze your brand vision and technical needs to map a digital roadmap." },
         { id: "02", title: "Design (UI/UX)", desc: "We design user-friendly, conversion-driven and visually polished interfaces." },
         { id: "03", title: "Development", desc: "We build fast, secure, SEO-friendly infrastructure with modern technologies (React, Tailwind)." },
-        { id: "04", title: "Delivery", desc: "We launch your platform after all tests, ready to run without disruption." }
+        { id: "04", title: "Delivery", desc: "We launch your platform after all tests, ready to run without disruption." },
+        { id: "05", title: "Maintenance & Support", desc: "Continuous monitoring, updates, and technical support to keep your system running at peak performance." }
       ]
     },
     testimonials: {
@@ -449,7 +462,13 @@ const translations = {
         founderRole: "Gründer",
         founderDesc: "Er ist die strategische Kraft hinter Acrez und setzt Markenvisionen in klare digitale Erlebnisse um. Von der Planung bis zur Umsetzung spielt er eine zentrale Rolle bei der Stärkung der Identität jedes Projekts.",
         developerSkills: ["React", "Tailwind", "GSAP", "C#", "API", "Backend"],
-        founderSkills: ["Strategie", "Entwicklung", "Management"]
+        founderSkills: ["Strategie", "Entwicklung", "Management"],
+
+        designerName: "Taha Önal",
+  designerRole: "UI/UX-Designer",
+  designerDesc: "Der kreative Kopf hinter der visuellen Identität von Acrez. Taha kombiniert Ästhetik mit nutzerzentrierten Designs, um Marken in unvergessliche digitale Erlebnisse zu verwandeln.",
+  designerSkills: ["Figma", "UI/UX Design", "Prototyping"]
+
       },
       ecosystem: {
         title: "Das Ökosystem, das wir bauen",
@@ -503,7 +522,8 @@ const translations = {
         { id: "01", title: "Entdeckung & Strategie", desc: "Wir analysieren Ihre Markenvision und technischen Anforderungen, um einen digitalen Fahrplan zu erstellen." },
         { id: "02", title: "Design (UI/UX)", desc: "Wir gestalten benutzerfreundliche, konversionsorientierte und visuell makellose Interfaces." },
         { id: "03", title: "Entwicklung", desc: "Wir bauen schnelle, sichere und SEO-freundliche Infrastruktur mit modernen Technologien (React, Tailwind)." },
-        { id: "04", title: "Übergabe", desc: "Wir bringen Ihre Plattform nach allen Tests live, bereit für einen störungsfreien Betrieb." }
+        { id: "04", title: "Übergabe", desc: "Wir bringen Ihre Plattform nach allen Tests live, bereit für einen störungsfreien Betrieb." },
+        { id: "05", title: "Wartung & Support", desc: "Kontinuierliche Überwachung, Updates und technischer Support, um Ihr System auf Höchstleistung zu halten." }
       ]
     },
     testimonials: {

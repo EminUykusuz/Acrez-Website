@@ -6,6 +6,9 @@ export default function CustomCursor() {
   const [isHovering, setIsHovering] = useState(false);
 
   useEffect(() => {
+    // Sadece masaüstü cihazlarda GSAP animasyonunu çalıştır
+    if (window.innerWidth < 768) return; 
+
     const cursor = cursorRef.current;
     gsap.set(cursor, { xPercent: -50, yPercent: -50 });
 
@@ -18,7 +21,6 @@ export default function CustomCursor() {
     };
 
     const onMouseOver = (e) => {
-      // Eğer bir link veya buton üzerindeyse state'i true yap
       if (e.target.closest('a, button')) {
         setIsHovering(true);
       } else {
@@ -38,8 +40,8 @@ export default function CustomCursor() {
   return (
     <div 
       ref={cursorRef}
-      // isHovering true olduğunda blend modunu normal'e çekiyoruz, rengi yeşil yapıyoruz
-      className={`fixed top-0 left-0 z-[9999] pointer-events-none flex items-center justify-center transition-all duration-300 ease-out
+      // "hidden md:flex" ekleyerek mobilde tamamen devre dışı bıraktık
+      className={`hidden md:flex fixed top-0 left-0 z-[9999] pointer-events-none items-center justify-center transition-all duration-300 ease-out
                   ${isHovering 
                     ? 'w-12 h-12 bg-acrez-accent/20 border-acrez-accent mix-blend-normal' 
                     : 'w-8 h-8 border-white mix-blend-difference'
